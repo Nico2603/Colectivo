@@ -67,7 +67,7 @@ function cargarIframe(url, descripcion) {
   console.log('iframeURL:', iframeURL);
   
   let accion;
-  if (iframeURL.includes('/vista/modulacion.html')) {
+  if (iframeURL.includes('/vista/modulacion.php')) {
     accion = 'Se abre la página de Modulación';
   } else if (iframeURL.includes('/vista/progra.html')) {
     accion = 'Se abre Marco Teórico de la página Programación y Bases de datos';
@@ -81,6 +81,10 @@ function cargarIframe(url, descripcion) {
     accion = 'Se abre la página de ajustes de Usuario (Admin)';
   } else if (iframeURL.includes('perfil.php')){
     accion = 'Se abre la página del perfil de usuario (Admin)';
+
+  } else if (iframeURL.includes('ajustes.php')){
+    accion = 'Se abre la página de Perfiles de Usuarios (Admin)';
+    
   } else if (iframeURL.includes('ganancia.php')){
     accion = 'Se abre la página para calcular Ganancia';
   } else if (iframeURL.includes('historial.php')){
@@ -158,12 +162,12 @@ function cargarIframe(url, descripcion) {
         </ul>
       </li>
       <li>
-        <a href="#" onclick="cargarIframe('../vista/modulacion.html', ', entró a la página de Modulación.')">
+        <a href="#" onclick="cargarIframe('../vista/modulacion.php', ', entró a la página de Modulación.')">
           <i class='bx bx-pie-chart-alt-2'></i>
           <span class="link_name">Modulación</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#" onclick="cargarIframe('../vista/modulacion.html', ', entró a la página de Modulación.')">Modulación</a></li>
+          <li><a class="link_name" href="#" onclick="cargarIframe('../vista/modulacion.php', ', entró a la página de Modulación.')">Modulación</a></li>
         </ul>
       </li>
       <li>

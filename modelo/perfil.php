@@ -64,6 +64,33 @@ $contra = $contrasenaUsuario;
 					</tr>
 				</table>
 			</div>
+			<form action="../controlador/crear_cuentas.php" method="post">
+
+<h2>Crear Cuenta</h2>
+
+<div class="input-box">
+	<span class="icon"><i class='bx bxs-user'></i></span>
+	<input type="text" required name="nombre">
+	<label >Nombre de Usuario</label>
+</div>
+<div class="input-box">
+	<span class="icon"><i class='bx bxs-envelope'></i></span>
+	<input type="text" required name="correo">
+	<label >Correo</label>
+</div>
+<div class="input-box">
+	<span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+	<input type="password" required name="contrasena">
+	<label>Contrasena</label>
+</div>
+<div class="input-box">
+	<span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+	<input type="text" required name="tipoUsuario">
+	<label>Tipo de Usuario</label>
+</div>
+<button class="btn" name="Crear_Cuenta">Crear Cuenta</button>
+
+</form>
 		</div>
 	</body>
 </html>

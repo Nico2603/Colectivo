@@ -136,3 +136,4 @@ delete from usuarios where idUsuario = 1;
 select tipoUsuario, correoUsuario, contrasenaUsuario from usuarios where idUsuario = 4;
 -- Eliminar la base de datos Colectivo
 drop database Colectivo;
+Adm1n15Tr4t0R

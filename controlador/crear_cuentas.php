@@ -25,10 +25,10 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['Crear_Cuenta'])){
         $query->execute();
         $query->store_result();
         if ($query->num_rows > 0){
-            ?> <script>alert('El correo ya ha sido registrado!');window.location='../index.php' </script> <?php
+            ?> <script>alert('El correo ya ha sido registrado!'); </script> <?php
         }
         else if (strlen($contrasena) < 6){
-            ?> <script>alert('La contrasena debe tener mas de 7 Caracteres!';);window.location='../index.php' </script> <?php
+            ?> <script>alert('La contrasena debe tener mas de 7 Caracteres!';); </script> <?php
         }
         else {
             $stmt = $conexion->prepare("INSERT INTO usuarios(nombreUsuario, tipoUsuario, correoUsuario, contrasenaUsuario) VALUES ('$nombre', '$user', '$correo', '$contraHashed');");
@@ -55,14 +55,14 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['Crear_Cuenta'])){
                     $stmt->bind_param('si', $rango_frecuencias, $idUsuario);
                     $stmt->execute();
                 }
-                ?> <script>alert('Te has registrado!';);window.location='../index.php' </script> <?php
+                ?> <script>alert('Te has registrado!';); </script> <?php
             }
             else {
-                ?> <script>alert('Algo ha salido mal!';);window.location='../index.php' </script> <?php
+                ?> <script>alert('Algo ha salido mal!';); </script> <?php
             }
         }
     }
-    ?> <script>alert('Se ha creado la cuenta!');window.location='../index.php' </script> <?php
+    ?> <script>alert('Se ha creado la cuenta!'); </script> <?php
     $query->close();
     mysqli_close($conexion);
 }
