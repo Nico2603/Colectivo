@@ -75,6 +75,10 @@ Acento por familia (solo el tick del banner):
 - `Nico2603/publicidad` es anuncios casa. Distinto de `Prosavis/publicidad`.
 - Forks Prosavis: identidad de Nicolás en footer está bien; no rebrandear el producto de la empresa.
 
+## Pendientes (no inventar)
+
+Ver [`docs/PORTFOLIO-PENDING.md`](../../docs/PORTFOLIO-PENDING.md). Sobre todo: **no** poner URL de Space Hugging Face del BERT hasta que se confirme; MarIA en Render sigue viva; Colectivo = programación, sin año.
+
 ## Pie obligatorio (README)
 
 Usar el bloque de [`docs/portfolio-kit/readme-footer.md`](../../docs/portfolio-kit/readme-footer.md). En un checkout de repo, copiar el mismo HTML al final de `README.md`.

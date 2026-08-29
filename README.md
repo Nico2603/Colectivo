@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**Trabajo institucional** (UCP): app PHP + MySQL con login y módulos de aula. No es un producto en producción.
+**Trabajo de programación** (UCP): app PHP + MySQL con login y módulos de aula. No es un producto en producción.
 
 [![PHP](https://img.shields.io/badge/PHP-web-070A0F?style=for-the-badge&logo=php&logoColor=7BA3C9)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-schema-070A0F?style=for-the-badge&logo=mysql&logoColor=7BA3C9)](https://www.mysql.com/)
@@ -15,9 +15,7 @@
 
 ## Qué es
 
-Proyecto colectivo de semestre: autenticación, dashboard y vistas (telecom / programación / espectro). Esquema en `colectivo.sql`. Carpetas `controlador/`, `modelo/`, `vista/`.
-
-Fue trabajo en grupo (créditos también en el código y fotos del equipo). Si recuerdas el nombre exacto de la asignatura y el año, lo agrego aquí.
+Proyecto colectivo de la asignatura de **programación**: autenticación, dashboard y vistas. Esquema en `colectivo.sql`. Carpetas `controlador/`, `modelo/`, `vista/`. Trabajo en grupo (créditos en el código y fotos del equipo).
 
 ## Ver local
 
