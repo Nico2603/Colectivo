@@ -1,13 +1,55 @@
-# Trabajo Colectivo
+<div align="center">
+  <img src="docs/assets/banner.svg" alt="Colectivo" width="100%" />
+</div>
 
+<br />
 
-> Trabajo final de asignatura, proyecto meramente institucional con el fin de poner en practica conocimientos adquiridos durante el curso
+<div align="center">
 
-Pagina principal
-![image](https://github.com/liandd/Colectivo/assets/114973749/95518832-89f1-4447-9844-70af0b5d9495)
-<br>
-Diagrama Relacional
-![MR](https://github.com/liandd/Colectivo/assets/114973749/6f210d2d-02e1-4743-a693-dd0092ec7b58)
-<br>
-Diagrama Modelo Entidad Relacion
-![MER](https://github.com/liandd/Colectivo/assets/114973749/454c6f4c-ce56-4675-8187-1e3d365889eb)
+**Trabajo institucional** (UCP): app PHP + MySQL con login y módulos de aula. No es un producto en producción.
+
+[![PHP](https://img.shields.io/badge/PHP-web-070A0F?style=for-the-badge&logo=php&logoColor=7BA3C9)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-schema-070A0F?style=for-the-badge&logo=mysql&logoColor=7BA3C9)](https://www.mysql.com/)
+
+</div>
+
+## Qué es
+
+Proyecto colectivo de semestre: autenticación, dashboard y vistas (telecom / programación / espectro). Esquema en `colectivo.sql`. Carpetas `controlador/`, `modelo/`, `vista/`.
+
+Fue trabajo en grupo (créditos también en el código y fotos del equipo). Si recuerdas el nombre exacto de la asignatura y el año, lo agrego aquí.
+
+## Ver local
+
+```bash
+git clone https://github.com/Nico2603/Colectivo.git
+```
+
+Sirve con PHP + MySQL (XAMPP o similar). Importa `colectivo.sql` y ajusta la conexión. El README viejo apuntaba a `localhost/php/Colectivo/`.
+
+## Agentes
+
+`.agents/skills/` — Superpowers, `nicolas-identity`, `find-skills`. `graphify update .`
+
+---
+
+<div align="center">
+
+**Nicolás Ceballos Brito** · Ingeniero en Sistemas y Telecomunicaciones (UCP 2025)  
+CTO · Prosavis · Pereira, Colombia
+
+[nicolasceballosbrito.com](https://nicolasceballosbrito.com)
+·
+[GitHub](https://github.com/Nico2603)
+·
+[LinkedIn](https://www.linkedin.com/in/nicolas-ceballos-brito/)
+·
+[X](https://x.com/NicolasCBrito)
+·
+[Instagram](https://www.instagram.com/nico_ceballos26/)
+·
+[Hugging Face](https://huggingface.co/Flackoooo)
+·
+[Email](mailto:nicolasceballosbrito@gmail.com)
+
+</div>
